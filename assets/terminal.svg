@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1150" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&amp;display=swap');
+      
+      /* GitHub Secondary Dark Theme (Code Block/Window shade) */
+      .bg { fill: #161b22; } 
+      .border { stroke: #30363d; stroke-width: 1.5; fill: none; }
+      
+      /* Text Styles */
+      .font-mono { font-family: 'Fira Code', Consolas, 'Courier New', monospace; }
+      
+      /* Unbreakable ASCII Style matching the screenshot */
+      .ascii { font-family: Consolas, 'Courier New', monospace; font-size: 14px; fill: #E3DEC3; font-weight: 600; }
+      
+      .prompt-cmd { fill: #8b949e; font-weight: 500; }
+      .prompt-arg { fill: #E3DEC3; font-weight: 600; }
+      
+      .text-main { font-size: 14.5px; fill: #E3DEC3; font-weight: 500; }
+      .text-bold { font-size: 16px; fill: #E3DEC3; font-weight: 600; }
+      .text-muted { font-size: 14.5px; fill: #8b949e; }
+      
+      .tree { fill: #57606a; }
+      .category { fill: #8b949e; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 13px; }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background & Border -->
+  <rect x="1" y="1" width="898" height="1148" rx="8" class="bg border" />
+  
+  <!-- Window Controls -->
+  <circle cx="25" cy="25" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="25" r="6" fill="#ffbd2e" />
+  <circle cx="65" cy="25" r="6" fill="#27c93f" />
+  
+  <!-- Header Separator -->
+  <line x1="1" y1="50" x2="899" y2="50" class="border" />
+
+  <!-- Exact ASCII Art from Screenshot -->
+  <g class="ascii" transform="translate(180, 100)">
+    <text x="0" y="0" xml:space="preserve">██████╗  ██████╗ ██████╗ ███████╗ ██████╗ ███╗   ██╗</text>
+    <text x="0" y="22" xml:space="preserve">██╔════╝ ██╔═══██╗██╔══██╗██╔════╝██╔═══██╗████╗  ██║</text>
+    <text x="0" y="44" xml:space="preserve">██║  ███╗██║   ██║██║  ██║███████╗██║   ██║██╔██╗ ██║</text>
+    <text x="0" y="66" xml:space="preserve">██║   ██║██║   ██║██║  ██║╚════██║██║   ██║██║╚██╗██║</text>
+    <text x="0" y="88" xml:space="preserve">╚██████╔╝╚██████╔╝██████╔╝███████║╚██████╔╝██║ ╚████║</text>
+    <text x="0" y="110" xml:space="preserve"> ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝</text>
+  </g>
+
+  <!-- ==================== WHOAMI SECTION ==================== -->
+  <g class="font-mono" transform="translate(80, 270)">
+    <text x="0" y="0"><tspan class="prompt-cmd">$ fastfetch</tspan> <tspan class="prompt-arg">whoami</tspan></text>
+    
+    <text x="0" y="40" class="text-bold">Godson Azariah[cite: 2]</text>
+    <text x="0" y="70" class="text-main">Product Engineer[cite: 2]</text>
+    
+    <text x="0" y="110" class="text-muted">Building thoughtful web systems with JavaScript[cite: 2],</text>
+    <text x="0" y="135" class="text-muted">focused on clean architecture[cite: 2],</text>
+    <text x="0" y="160" class="text-muted">developer experience[cite: 2],</text>
+    <text x="0" y="185" class="text-muted">and products people enjoy using[cite: 2].</text>
+  </g>
+
+  <!-- ==================== STACK & TOOLS (TWO COLUMNS) ==================== -->
+  
+  <!-- Left Column: Stack -->
+  <g class="font-mono" transform="translate(80, 520)">
+    <text x="0" y="0"><tspan class="prompt-cmd">$ fastfetch</tspan> <tspan class="prompt-arg">stack</tspan></text>
+    
+    <text x="0" y="40" class="category">Language</text>
+    <text x="0" y="65" class="text-main"><tspan class="tree">└── </tspan>JavaScript[cite: 2]</text>
+    
+    <text x="0" y="105" class="category">Frontend</text>
+    <text x="0" y="130" class="text-main"><tspan class="tree">└── </tspan>React.js[cite: 2]</text>
+    
+    <text x="0" y="170" class="category">Backend</text>
+    <text x="0" y="195" class="text-main"><tspan class="tree">└── </tspan>Node.js[cite: 2]</text>
+    <text x="0" y="220" class="text-main"><tspan class="tree">    </tspan>Express.js[cite: 2]</text>
+    
+    <text x="0" y="260" class="category">Database</text>
+    <text x="0" y="285" class="text-main"><tspan class="tree">└── </tspan>MongoDB[cite: 2]</text>
+    
+    <text x="0" y="325" class="category">Architecture</text>
+    <text x="0" y="350" class="text-main"><tspan class="tree">└── </tspan>REST APIs[cite: 2]</text>
+  </g>
+
+  <!-- Right Column: Tools -->
+  <g class="font-mono" transform="translate(480, 520)">
+    <text x="0" y="0"><tspan class="prompt-cmd">$ fastfetch</tspan> <tspan class="prompt-arg">tools</tspan></text>
+    
+    <text x="0" y="40" class="category">Development</text>
+    <text x="0" y="65" class="text-main"><tspan class="tree">├── </tspan>Visual Studio Code[cite: 2]</text>
+    <text x="0" y="90" class="text-main"><tspan class="tree">├── </tspan>Git[cite: 2]</text>
+    <text x="0" y="115" class="text-main"><tspan class="tree">├── </tspan>GitHub[cite: 2]</text>
+    <text x="0" y="140" class="text-main"><tspan class="tree">└── </tspan>Postman</text>
+    
+    <text x="0" y="190" class="category">Specialized</text>
+    <text x="0" y="215" class="text-main"><tspan class="tree">├── </tspan>Chrome Extension APIs</text>
+    <text x="0" y="240" class="text-main"><tspan class="tree">└── </tspan>VS Code Extension API</text>
+  </g>
+
+  <!-- ==================== FOCUS & CONTACTS (TWO COLUMNS) ==================== -->
+  
+  <!-- Left Column: Focus -->
+  <g class="font-mono" transform="translate(80, 930)">
+    <text x="0" y="0"><tspan class="prompt-cmd">$ fastfetch</tspan> <tspan class="prompt-arg">focus</tspan></text>
+    
+    <text x="0" y="40" class="text-main">Architecture</text>
+    <text x="0" y="65" class="text-main">Performance Optimization[cite: 2]</text>
+    <text x="0" y="90" class="text-main">Developer Experience</text>
+    <text x="0" y="115" class="text-main">Thoughtful Products</text>
+  </g>
+
+  <!-- Right Column: Contact -->
+  <g class="font-mono" transform="translate(480, 930)">
+    <text x="0" y="0"><tspan class="prompt-cmd">$ fastfetch</tspan> <tspan class="prompt-arg">contact</tspan></text>
+    
+    <text x="0" y="40" class="category">Portfolio</text>
+    <text x="0" y="65" class="text-main"><tspan class="tree">└── </tspan>https://godson.blog[cite: 2]</text>
+    
+    <text x="0" y="105" class="category">GitHub</text>
+    <text x="0" y="130" class="text-main"><tspan class="tree">└── </tspan>https://github.com/godson-azariah[cite: 2]</text>
+    
+    <text x="0" y="170" class="category">Email</text>
+    <text x="0" y="195" class="text-main"><tspan class="tree">└── </tspan>godson.azh@gmail.com[cite: 2]</text>
+  </g>
+</svg>

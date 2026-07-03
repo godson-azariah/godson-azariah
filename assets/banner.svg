@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&amp;family=Space+Grotesk:wght@400;500&amp;display=swap');
+      .grid { stroke: #888888; stroke-width: 1; opacity: 0.2; }
+      .accent-light { fill: #E3DEC3; }
+      .accent-dark { fill: #191919; }
+      .title { font-family: 'Syncopate', sans-serif; font-size: 85px; font-weight: 700; fill: #777777; text-anchor: middle; letter-spacing: -2px; }
+      .subtitle { font-family: 'Space Grotesk', sans-serif; font-size: 13px; letter-spacing: 8px; fill: #888888; text-anchor: middle; text-transform: uppercase; }
+    </style>
+  </defs>
+  
+  <!-- Architectural Lines -->
+  <line x1="0" y1="110" x2="1000" y2="110" class="grid"/>
+  <line x1="200" y1="0" x2="200" y2="220" class="grid"/>
+  <line x1="800" y1="0" x2="800" y2="220" class="grid"/>
+  <line x1="500" y1="0" x2="500" y2="220" class="grid" stroke-dasharray="4 4"/>
+  
+  <!-- Custom Color Accents -->
+  <rect x="192" y="102" width="16" height="16" class="accent-light"/>
+  <rect x="795" y="105" width="10" height="10" class="accent-dark" stroke="#E3DEC3" stroke-width="1"/>
+  
+  <!-- Typography -->
+  <text x="500" y="90" class="title">GODSON</text>
+  <text x="500" y="155" class="subtitle">Product Engineer &amp; JS Engineer</text>
+</svg>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%">
-  <style>
-    .grid { stroke: #888888; stroke-width: 1; opacity: 0.2; }
-    .accent { fill: #E3DEC3; }
-  </style>
-  <line x1="0" y1="20" x2="1000" y2="20" class="grid"/>
-  <rect x="100" y="18" width="40" height="4" class="accent"/>
-  <rect x="860" y="18" width="40" height="4" class="accent"/>
-</svg>

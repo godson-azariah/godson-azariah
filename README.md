@@ -1,109 +1,34 @@
-```console
-godson@github:~$ neofetch
+<div align="center">
+  <img src="./banner.svg" alt="Godson Azariah" width="100%" />
+</div>
 
-                 .--.
-              .-(    ).
-             (___.__)__)
-             /  /\  \
-            /__/  \__\
+<br/>
 
-OS: Product Engineer
-Host: Godson Azariah
-Shell: JavaScript
-Editor: VS Code
-Stack: React • Node.js • Express • MongoDB
-Focus: Building products that people actually use
-Location: India
+### `01` &nbsp; PHILOSOPHY
+> I am a final-year CS student and a fresher looking to build clean, intentional systems in a fast-paced startup environment. I design and engineer web experiences with a heavy focus on structure, performance, and clarity. 
 
-────────────────────────────────────────────────────────────
+<img src="./divider.svg" alt="divider" width="100%" />
 
-Currently Working On
+### `02` &nbsp; TOOLKIT
+> **Stack** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MERN (MongoDB, Express.js, React.js, Node.js)
+> **Language** &nbsp; Strictly JavaScript (skipping TypeScript for my current flow)
+> **Focus** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clean Architecture • Performance Optimization • Product Deployment
 
-• SkillMatrix
-  Full-stack learning & skill tracking platform
+<img src="./divider.svg" alt="divider" width="100%" />
 
-• Browser Extensions
-  Productivity-first tools for everyday workflows
+### `03` &nbsp; OFF-SCREEN
+> **Audio** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Composing orchestral and ambient music in FL Studio (Hans Zimmer and John Powell are the standard).
+> **Visual** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Winding down with digital art and plotting a pivot into oil painting, starting with black and white portraits.
+> **Cinema** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rewatching *Interstellar*, *Attack on Titan*, or *Dark*.
+> **Quests** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Polishing my English fluency for the professional world and exploring game dev concepts (tinkering with Roblox before going full indie).
 
-• Developer Tools
-  Building software that improves developer experience
+<br/>
+<br/>
 
-────────────────────────────────────────────────────────────
-
-Experience
-
-> Full Stack Development Intern
-
-Built production-ready web applications,
-worked across frontend & backend,
-collaborated on real-world features,
-and learned how products evolve beyond tutorials.
-
-────────────────────────────────────────────────────────────
-
-Projects
-
-> SkillMatrix
-  MERN application for structured skill development
-  and personalized learning.
-
-> Tabee
-  Chrome New Tab extension focused on productivity.
-
-> JS Readability Checker
-  VS Code extension for improving JavaScript readability.
-
-> Data.gov Explorer
-  Search and explore datasets with a clean interface.
-
-────────────────────────────────────────────────────────────
-
-Tech I Reach For
-
-Languages
-• JavaScript
-
-Frontend
-• React
-• HTML
-• CSS
-
-Backend
-• Node.js
-• Express.js
-
-Database
-• MongoDB
-
-Tools
-• Git
-• GitHub
-• VS Code
-• Postman
-• Chrome Extension APIs
-
-────────────────────────────────────────────────────────────
-
-Philosophy
-
-I enjoy building products that solve small,
-real problems.
-
-Whether it's a browser extension,
-a developer tool,
-or a full-stack web application,
-I care about making software feel clean,
-fast, and intuitive.
-
-────────────────────────────────────────────────────────────
-
-Links
-
-GitHub    github.com/godson-azariah
-LinkedIn  linkedin.com/in/your-link
-Portfolio Coming Soon
-
-────────────────────────────────────────────────────────────
-
-godson@github:~$ █
-```
+<div align="center">
+  <p>
+    <a href="https://godson.blog" style="text-decoration: none;"><b>Portfolio</b></a> &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://linkedin.com/in/godson-azariah" style="text-decoration: none;"><b>LinkedIn</b></a> &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="mailto:godson.azh@gmail.com" style="text-decoration: none;"><b>Contact</b></a>
+  </p>
+</div>
